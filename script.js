@@ -29,3 +29,10 @@ button3.onclick= (event) => {
     console.log(event.type);
     console.log(event.target);
 };
+
+
+let div1= document.querySelector(".div1");
+
+div1.onmouseover= ()=>{
+    console.log ("button was hoverd");
+};
