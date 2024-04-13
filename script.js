@@ -36,3 +36,14 @@ let div1= document.querySelector(".div1");
 div1.onmouseover= ()=>{
     console.log ("button was hoverd");
 };
+
+
+
+let div2= document.querySelector(".div2");
+
+div2.onmouseover=(event)=>{
+    console.log(event);
+    console.log(event.type);
+    console.log(event.target);
+};
+
