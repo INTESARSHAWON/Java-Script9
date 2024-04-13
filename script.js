@@ -47,3 +47,12 @@ div2.onmouseover=(event)=>{
     console.log(event.target);
 };
 
+
+
+// event a sobar age sikhlam inline, jeta kaj kora uchit na
+// erpor sikhlam JS theke kivabe kaj kora jay
+// ebar sikhbo kivabe JS  event listener diye kivabe kaj kora jay, ekhane object o pass kora jay
+// eta sobcheye beshi use hoy
+// ekhane sorasori event er naam hobe, er age 'on' hobe na...,
+
+
