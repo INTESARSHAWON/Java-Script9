@@ -20,3 +20,12 @@ button2.ondblclick= ()=>{
     alert ("yes or no");
 
 };
+
+
+let button3 = document.querySelector(".button3");
+
+button3.onclick= (event) => {
+    console.log(event);
+    console.log(event.type);
+    console.log(event.target);
+};
