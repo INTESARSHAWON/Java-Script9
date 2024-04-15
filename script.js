@@ -56,3 +56,14 @@ div2.onmouseover=(event)=>{
 // ekhane sorasori event er naam hobe, er age 'on' hobe na...,
 
 
+
+
+let button4= document.querySelector(".button4");
+
+button4.addEventListener ("click", (event)=> { 
+    console.log("button4 was clicked");
+    console.log(event);
+    console.log(event.type);
+    console.log(event.target);
+});
+
