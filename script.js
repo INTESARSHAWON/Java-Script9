@@ -80,3 +80,16 @@ button5.addEventListener ("dblclick", (event)=>{
 
 
 
+//eta hocche removeEventListener. remove koray...,age memoryr eki jaygay save kore tarpor okhan theke dlt kora jabe 
+
+let button6= document.querySelector(".button6");
+
+const dltbutton= ()=>{
+    console.log("button6 was clicked");
+};
+
+button6.addEventListener ("click", button6);
+button6.removeEventListener ("click", button6);
+
+
+
