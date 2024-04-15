@@ -67,3 +67,16 @@ button4.addEventListener ("click", (event)=> {
     console.log(event.target);
 });
 
+
+
+let button5= document.querySelector(".button5");
+
+button5.addEventListener ("dblclick", (event)=>{
+    console.log("button5 was double clicked");
+    console.log(event);
+    console.log(event.type);
+    console.log(event.target);
+});
+
+
+
