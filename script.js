@@ -93,3 +93,15 @@ button6.removeEventListener ("click", button6);
 
 
 
+//
+
+
+let div3= document.querySelector(".div3");
+
+div3.addEventListener ("mouseover", (event)=>{
+    console.log("div was hovered");
+    console.log(event.type);
+    console.log(event.target);
+});
+
+
