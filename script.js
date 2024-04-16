@@ -124,3 +124,29 @@ toggleButton.addEventListener ("click", () =>{
 });
 
 
+
+
+
+let toggle4times = document.querySelector(".button8");
+let modeNow="white";
+
+
+toggle4times.addEventListener("click", () =>{
+    if(modeNow==="white"){
+        modeNow= "orange";
+        document.querySelector("body").style.backgroundColor="orange";
+    }
+    else if(modeNow==="orange"){
+        modeNow= "red";
+        document.querySelector("body").style.backgroundColor="red";
+    }
+    else if(modeNow==="red"){
+        modeNow= "blue";
+        document.querySelector("body").style.backgroundColor="blue";
+    }
+    else if(modeNow==="blue"){
+        modeNow="white";
+        document.querySelector("body").style.backgroundColor="white";
+    }
+
+});
